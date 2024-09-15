@@ -1,0 +1,15 @@
+{application, gen_kcp,
+ [{description, "Erlang Kcp"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {gen_kcp_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
